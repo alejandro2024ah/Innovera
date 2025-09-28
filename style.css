@@ -1,0 +1,250 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #171717;
+  color: #e5c76a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #101010;
+  color: #e5c76a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  font-family: 'Cinzel', serif;
+  border-bottom: 2px solid #e5c76a;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 48px;
+  margin-right: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #e5c76a44;
+}
+
+nav a {
+  margin: 0 1.2rem;
+  color: #e5c76a;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Cinzel', serif;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* HERO */
+.hero-image {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 40px #e5c76a55;
+  object-fit: cover;
+}
+
+.hero {
+  background: linear-gradient(135deg, #171717 80%, #e5c76a 100%);
+  text-align: center;
+  padding: 5rem 2rem 3rem 2rem;
+  border-bottom: 2px solid #e5c76a;
+}
+
+.hero h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  color: #e5c76a;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.hero .innovera {
+  color: #fff;
+  text-shadow: 0 0 20px #e5c76a;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.cta-btn {
+  background: #e5c76a;
+  color: #171717;
+  padding: 1rem 2.5rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 10px #e5c76a88;
+  transition: background 0.2s, color 0.2s;
+}
+
+.cta-btn:hover {
+  background: #fff;
+  color: #e5c76a;
+}
+
+/* MAIN CONTENT */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #101010;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #e5c76a22;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  color: #e5c76a;
+  margin-bottom: 1rem;
+}
+
+/* ABOUT */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.about-img {
+  width: 220px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #e5c76a44;
+  object-fit: cover;
+}
+
+/* SERVICES */
+.services-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.services-list li {
+  background: #171717;
+  border: 1.5px solid #e5c76a;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 0 10px #e5c76a22;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+.services-list li:hover {
+  box-shadow: 0 0 20px #e5c76a55;
+}
+
+.service-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 0.8rem;
+  filter: drop-shadow(0 0 6px #e5c76a);
+  object-fit: contain;
+}
+
+.services-list h3 {
+  font-family: 'Cinzel', serif;
+  color: #fff;
+  margin-bottom: 0.7rem;
+}
+
+/* CONTACT */
+.contact-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.contact-img {
+  width: 180px;
+  border-radius: 18px;
+  box-shadow: 0 0 20px #e5c76a44;
+  object-fit: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 250px;
+}
+
+input, textarea {
+  background: #171717;
+  color: #e5c76a;
+  border: 1px solid #e5c76a;
+  border-radius: 6px;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #fff;
+}
+
+button {
+  background: #e5c76a;
+  color: #101010;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+  background: #fff;
+  color: #e5c76a;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem;
+  background: #171717;
+  color: #e5c76a;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  border-top: 2px solid #e5c76a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  main {
+    max-width: 96vw;
+  }
+  .about-content, .contact-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
